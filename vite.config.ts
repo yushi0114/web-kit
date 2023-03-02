@@ -9,10 +9,10 @@ export default defineConfig({
     lib: {
       // Could also be a dictionary or array of multiple entry points
       entry: 'lib/main.ts',
-      name: 'SjzxUiComponent',
+      name: 'SjzxWebKit',
       formats: ['es'],
       // the proper extensions will be added
-      fileName: 'sjzx-ui-component',
+      fileName: 'sjzx-web-kit',
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖

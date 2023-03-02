@@ -1,4 +1,4 @@
-# @sjzx/ui-component
+# @sjzx/web-kit
 
 ## startup
 
@@ -7,7 +7,8 @@
 ### install
 
 ``` bash
-$ npm i git+http://10.0.30.40:9191/wangbinyu/sjzx-ui-component.git#[TAG] -S
+$ npm i git+http://10.0.30.40:9191/dev1-group/sjzx-web-kit.git#[TAG] -S
+# $ npm i git+http://10.0.30.40:9191/dev1-group/sjzx-web-kit.git#0.0.1-alpha.3 -S
 ```
 
 ### update
@@ -25,12 +26,12 @@ $ npm i
 ## usage
 
 ``` tsx
-import 'sjzx-ui-component/dist/style.css'
+import 'sjzx-web-kit/dist/style.css'
 ```
 
 ``` tsx
 // App.vue
-import { FlexRow } from 'sjzx-ui-component'
+import { FlexRow } from 'sjzx-web-kit'
 
 <FlexRow>
 
