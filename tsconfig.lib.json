@@ -1,0 +1,25 @@
+{
+    "extends": "@vue/tsconfig/tsconfig.web.json",
+    "include": [
+        "env.d.ts",
+        "auto-imports.d.ts",
+        "components.d.ts",
+        "types/globals.d.ts",
+        "lib/**/*",
+        "lib/**/*.ts",
+        "lib/**/*.vue"
+    ],
+    "exclude": [
+        "lib/**/__tests__/*"
+    ],
+    "compilerOptions": {
+        "composite": true,
+        "baseUrl": ".",
+        "lib": ["DOM","esnext"],
+        "paths": {
+            "@/*": [
+                "./lib/*"
+            ]
+        }
+    }
+}
